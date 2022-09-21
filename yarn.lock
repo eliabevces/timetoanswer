@@ -17,11 +17,6 @@ fastclick@1.0.6:
   resolved "https://registry.yarnpkg.com/fastclick/-/fastclick-1.0.6.tgz#161625b27b1a5806405936bda9a2c1926d06be6a"
   integrity sha1-FhYlsnsaWAZAWTa9qaLBkm0Gvmo=
 
-font-awesome@4.6.3:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.6.3.tgz#86933651540ee00874c664017f50f2172f6531a2"
-  integrity sha1-hpM2UVQO4Ah0xmQBf1DyFy9lMaI=
-
 jquery-mousewheel@>=3.0.6:
   version "3.1.13"
   resolved "https://registry.yarnpkg.com/jquery-mousewheel/-/jquery-mousewheel-3.1.13.tgz#06f0335f16e353a695e7206bf50503cb523a6ee5"
