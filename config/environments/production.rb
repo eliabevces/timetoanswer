@@ -4,6 +4,16 @@ Rails.application.configure do
   # Code is not reloaded between requests.
   config.cache_classes = true
 
+  # Devise Config
+  config.action_mailer.default_url_options = { host: 'www.labtimetoanswer.com' }
+  
+  # Mailgun Config
+  config.action_mailer.delivery_method = :mailgun
+  config.action_mailer.mailgun_settings = {
+  api_key: Rails.application.credentials.MAILGUN_KEY,
+  domain: 'mg.labtimetoanswer.com'
+  }
+
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
@@ -91,4 +101,6 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+
 end
