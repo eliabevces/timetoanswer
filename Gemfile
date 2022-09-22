@@ -45,6 +45,8 @@ gem 'kaminari'
 gem 'kaminari-i18n'
 gem 'cocoon'
 gem "font-awesome-rails"
+gem 'prawn-rails'
+gem 'mailgun-ruby', '~>1.2.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -77,7 +79,6 @@ end
 group :production do
   gem 'mysql2', '~> 0.5'  
   gem 'unicorn'
-  gem 'mailgun-ruby', '~>1.2.5'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
