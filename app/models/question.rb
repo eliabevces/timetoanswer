@@ -7,7 +7,7 @@ class Question < ApplicationRecord
 
   paginates_per 5
 
-  scope :search, -> (page, term){
+  scope :_search_, -> (page, term){
     includes(:answers, :subject)
             .where("lower(description) LIKE ?", "%#{term.downcase}%")                    
             .page(page)

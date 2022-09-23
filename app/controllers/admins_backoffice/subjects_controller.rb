@@ -4,7 +4,8 @@ class AdminsBackoffice::SubjectsController < AdminsBackofficeController
   def index
     respond_to do |format|
       format.html { @subjects = Subject.all.order(:id).page(params[:page]) }
-      format.pdf { @subjects = Subject.all.order(:id) }
+      format.pdf  { @subjects = Subject.all.order(:id) }
+      format.json { @subjects = Subject.all.order(:id) }
     end
   end
   

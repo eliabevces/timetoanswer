@@ -33,6 +33,7 @@
         first_name: Nome
         last_name: Sobrenome
         address: Endereço
+        zip_code: CEP
         gender: Sexo
         birthdate: Data de Nascimento
         created_at: Criado em

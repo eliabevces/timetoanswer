@@ -47,6 +47,8 @@ gem 'cocoon'
 gem "font-awesome-rails"
 gem 'prawn-rails'
 gem 'mailgun-ruby', '~>1.2.5'
+gem 'redis'
+gem 'hiredis'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
