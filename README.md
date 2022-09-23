@@ -1,24 +1,7 @@
-# README
+# Time to Answer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Site de perguntas com backoffice de usuários e backoffice de administradores!
 
-Things you may want to cover:
+Projeto ruby desenvolvido no curso [Ruby on Rails - Do início ao fim!](https://www.udemy.com/course/rubyonrails-5x/?referralCode=5CDC4A6332959AB91860)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Projeto temporariamente no endereço [http://www.labtimetoanswer.com](http://www.labtimetoanswer.com)
